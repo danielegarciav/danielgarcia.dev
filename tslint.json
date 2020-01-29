@@ -1,0 +1,43 @@
+{
+  "rulesDirectory": "tslint-plugin-prettier",
+  "defaultSeverity": "warning",
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["node_modules/**"]
+  },
+  "rules": {
+    "prettier": true,
+    "semicolon": true,
+    "quotemark": [true, "single", "avoid-escape"],
+    "indent": [true, "spaces", 2],
+    "interface-name": false,
+    "no-console": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-consecutive-blank-lines": true,
+    "arrow-parens": { "options": "ban-single-arg-parens" },
+    "curly": false,
+    "only-arrow-functions": false,
+    "radix": false,
+    "max-line-length": [
+      true,
+      {
+        "limit": 120,
+        "check-strings": false,
+        "ignore-pattern": "'.+'"
+      }
+    ],
+    "trailing-comma": {
+      "options": {
+        "singleline": "never",
+        "multiline": {
+          "arrays": "always",
+          "objects": "always",
+          "functions": "ignore",
+          "typeLiterals": "ignore"
+        },
+        "esSpecCompliant": true
+      }
+    }
+  }
+}

@@ -62,7 +62,7 @@
         <ul class="bullet-points">
           <li>
             <b>Making native-like web apps</b>
-            <br />
+            <br />using
             <a
               target="_blank"
               href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers"
@@ -99,6 +99,7 @@
               target="_blank"
               href="https://martinfowler.com/articles/feature-toggles.html"
             >feature flags</a>,
+            <a target="_blank" href="https://trunkbaseddevelopment.com">trunk based development</a> and
             <a
               target="_blank"
               href="https://azure.microsoft.com/en-ca/services/devops/pipelines"
